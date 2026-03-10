@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<section id="education" class="py-5 bg-light">
+  <div class="container">
+
+    <h2 class="text-center mb-5">🎓 Education</h2>
+
+    <div class="row">
+
+      <!-- M.Tech -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5 class="card-title">M.Tech in Artificial Intelligence & Machine Learning</h5>
+            <h6 class="text-muted">lovely professional university</h6>
+            <p class="mb-1"><strong>Year:</strong> 2023 - 2025</p>
+            <p>
+              Specialized in Deep Learning, Computer Vision, Machine Learning,
+              and AI-based research projects.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- B.Tech -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5 class="card-title">B.Tech in Electronics and communication</h5>
+            <h6 class="text-muted">Axis colleges university </h6>
+            <p class="mb-1"><strong>Year:</strong> 2019 - 2023</p>
+            <p>
+              Studied Data Structures, Algorithms, Web Development,
+              and Software Engineering fundamentals.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- 12th -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5>Higher Secondary (12th) - Science (PCM)</h5>
+            <p class="text-muted">Kendriya vidyalaya school</p>
+            <p>CBSE Board | 2017</p>
+            <p>Percentage: 85%</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10th -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5>Secondary School (10th)</h5>
+            <p class="text-muted">kendriya vidayalaya school</p>
+            <p>CBSE Board | 2015</p>
+            <p>Percentage: 88%</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</section>
+{% endblock %}

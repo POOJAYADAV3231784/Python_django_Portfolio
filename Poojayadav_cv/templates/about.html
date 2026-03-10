@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<section id="about" class="py-5 bg-light">
+
+  <div class="row">
+
+    <div class="col-md-6">
+      <h1>Summary</h1>
+        <p>
+        I am a Python developer with experience in Django and AI/ML learner ML algorithms, and deep learning tools like
+        TensorFlow and OpenCV. I have developed web applications and AI projects such as QR-based gate pass systems, online
+        exams, customer segmentation, and AI-based environmental change detection.Currently pursuing M.Tech in AI/ML, I
+        focus on building practical, intelligent solutions with strong problem-solving and adaptability
+        </p>
+    </div>
+
+    <div class="col-md-6">
+      <img src="{% static 'images/profile.png' %}" class="img-fluid rounded">
+    </div>
+
+  </div>
+
+</section>
+
+{% endblock %}

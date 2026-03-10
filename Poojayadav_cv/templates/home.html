@@ -1,0 +1,252 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<section id="home"
+         class="d-flex align-items-center text-center text-white"
+         style="
+            background: url('{% static 'images/bg.jpg' %}') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+         ">
+
+  <div class="container">
+
+    <!-- Dark Overlay (makes text readable) -->
+    <div style="
+        background: rgba(0,0,0,0.6);
+        padding: 40px;
+        border-radius: 15px;
+    ">
+
+      <!-- Profile Photo -->
+      <img src="{% static 'images/profile.png' %}"
+           class="rounded-circle shadow"
+           width="200"
+           height="200"
+           style="object-fit: cover; border: 5px solid white;"
+           alt="Pooja">
+
+
+      <h1 class="mt-4">Pooja Yadav 👋</h1>
+      <h4>Python Developer | AI & ML Engineer</h4>
+      <p>Building AI solutions using Python & Deep Learning.</p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section id="summary"
+         style="background-color: #f4f4f4; padding: 60px 0;">
+
+  <div class="container">
+
+    <h2 class="text-center mb-5"> Summary</h2>
+
+    <p>
+  I am a Python developer with experience in Django and AI/ML learner ML algorithms, and deep learning tools like
+TensorFlow and OpenCV. I have developed web applications and AI projects such as QR-based gate pass systems, online
+exams, customer segmentation, and AI-based environmental change detection.Currently pursuing M.Tech in AI/ML, I
+focus on building practical, intelligent solutions with strong problem-solving and adaptability
+    </p>
+
+  </div>
+
+</section>
+<section id="education" class="py-5 bg-light">
+  <div class="container">
+
+    <h2 class="text-center mb-5">🎓 Education</h2>
+
+    <div class="row">
+
+      <!-- M.Tech -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5 class="card-title">M.Tech in Artificial Intelligence & Machine Learning</h5>
+            <h6 class="text-muted">lovely professional university</h6>
+            <p class="mb-1"><strong>Year:</strong> 2023 - 2025</p>
+            <p>
+              Specialized in Deep Learning, Computer Vision, Machine Learning,
+              and AI-based research projects.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- B.Tech -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5 class="card-title">B.Tech in Electronics and communication</h5>
+            <h6 class="text-muted">Axis colleges university </h6>
+            <p class="mb-1"><strong>Year:</strong> 2019 - 2023</p>
+            <p>
+              Studied Data Structures, Algorithms, Web Development,
+              and Software Engineering fundamentals.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- 12th -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5>Higher Secondary (12th) - Science (PCM)</h5>
+            <p class="text-muted">Kendriya vidyalaya school</p>
+            <p>CBSE Board | 2017</p>
+            <p>Percentage: 85%</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10th -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5>Secondary School (10th)</h5>
+            <p class="text-muted">kendriya vidayalaya school</p>
+            <p>CBSE Board | 2015</p>
+            <p>Percentage: 88%</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</section>
+
+<section id="projects" class="py-5">
+
+  <h2 class="text-center mb-4">My Projects</h2>
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="card shadow">
+        <img src="{% static 'images/gate.jpg' %}" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">QR CODEE-GATE PASS SYSTEM</h5>
+          <p class="card-text">.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow">
+        <img src="{% static 'images/blog.jpg' %}" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Blog Application</h5>
+          <p class="card-text">Machine Learning Regression Model.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow">
+        <img src="{% static 'images/research work.jpg' %}" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Reseach work</h5>
+          <p class="card-text">in my master i do research work</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+ <section class="skills-wrapper ">
+
+    <!-- Technical Skills -->
+    <div class="skills-box technical-skills">
+        <h2 class="text-center mb-5">Technical Skills</h2>
+
+        <div class="skills-container">
+
+    <div class="skill-item">
+        <img src="{% static 'images/python.jpg' %}">
+        <p>Python</p>
+    </div>
+
+    <div class="skill-item">
+        <img src="{% static 'images/django.jpg' %}">
+        <p>Django</p>
+    </div>
+
+    <div class="skill-item">
+        <img src="{% static 'images/html.jpg' %}">
+        <p>HTML</p>
+    </div>
+
+    <div class="skill-item">
+        <img src="{% static 'images/javaScripts.png' %}">
+        <p>JavaScript</p>
+    </div>
+
+    <div class="skill-item">
+        <img src="{% static 'images/css.png' %}">
+        <p>CSS</p>
+    </div>
+
+    <div class="skill-item">
+        <img src="{% static 'images/bootstrap.jpg' %}">
+        <p>Bootstrap</p>
+    </div>
+
+    <div class="skill-item">
+        <img src="{% static 'images/git.png' %}">
+        <p>Git</p>
+    </div>
+
+    <div class="skill-item">
+        <img src="{% static 'images/cnn.png' %}">
+        <p>CNN</p>
+    </div>
+
+    <div class="skill-item">
+        <img src="{% static 'images/opencv.png' %}">
+        <p>OpenCV</p>
+    </div>
+
+    </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-wrapper">
+
+      <!-- Email -->
+      <a href="mailto:pooja@example.com" class="contact-card">
+        <div class="icon email">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <span>poojayadavwork23@gmail.com</span>
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://linkedin.com/in/pooja" target="_blank" class="contact-card">
+        <div class="icon linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+        <span>www.linkedin.com/in/pooja-yadav-413129222</span>
+      </a>
+
+      <!-- GitHub -->
+      <a href="https://github.com/pooja" target="_blank" class="contact-card">
+        <div class="icon github">
+          <i class="fab fa-github"></i>
+        </div>
+        <span>github.com/poojayadavwork23</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+{% endblock %}
